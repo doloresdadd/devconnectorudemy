@@ -239,7 +239,11 @@ const EditProfile = ({
             </div>
           </Fragment>}
 
-        <input type="submit" className="btn btn-primary my-1" />
+        <input
+          type="submit"
+          className="btn btn-primary my-1"
+          value="Update Profile"
+        />
         <Link className="btn btn-light my-1" to="/dashboard">
           Go Back
         </Link>
